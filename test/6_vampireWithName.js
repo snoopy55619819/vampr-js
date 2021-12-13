@@ -23,6 +23,8 @@ describe("Vampire", function() {
       rootVampire.addOffspring(offspring3);
       offspring3.addOffspring(offspring4);
       offspring4.addOffspring(offspring5);
+      // console.log(offspring5.name);
+      // console.log('THE TEST ANSWER IS: ', rootVampire.vampireWithName(offspring5.name).name);
     });
 
     context("when searching with a name that exists in the tree", () => {
